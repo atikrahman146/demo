@@ -1,0 +1,20 @@
+.gn-menu-main > li {
+  float: right;
+}
+.gn-menu-wrapper {
+	left: auto;
+	right: 0;
+	-webkit-transform: translateX(80px);
+	-moz-transform: translateX(80px);
+	transform: translateX(80px);
+}
+.gn-menu-main > li:last-child {
+  border-left: medium none;
+  border-right: medium none;
+  float: left;
+}
+.gn-menu-main > li.logo {
+  border-left: medium none;
+  border-right: 1px solid #c6d0da;
+  float: left;
+}

@@ -1,0 +1,142 @@
+/* 
+    Document   : styleSwitcher
+    Description:
+        Stylesheet for StyleSwitcher
+*/
+
+#style-switcher {
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 0;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.50);
+  height: auto;
+  left: auto;
+  position: fixed;
+  right: -170px;
+  top: 115px;
+  width: 170px;
+  z-index: 9;
+}
+#style-switcher h4 {
+  border: medium none;
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+  padding: 0 0 15px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.boxed.active a, 
+#style-switcher.active a{
+    color: #222;
+    font-weight: 600;
+    text-decoration: underline;
+}
+#style-switcher #styles-container {
+  margin: 20px auto;
+  padding: 0 15px;
+  width: 160px;
+}
+#style-switcher #styles-container section {
+  margin: 0 0 10px;
+  position: relative;
+}
+#style-switcher h6{
+    font: 14px Arial, sans-serif;
+    line-height: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+#style-switcher p{
+    font: 12px Arial, sans-serif;
+    margin-bottom: 10px;
+}
+#style-switcher #styles-button {
+  background: none repeat scroll 0 0 #fff;
+  border: medium none;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.50);
+  height: auto;
+  padding: 0;
+  position: absolute;
+  right: 170px;
+  top: 0;
+  width: auto;
+}
+#style-switcher #styles-button i {
+  color: #333;
+  display: block;
+  font-size: 22px;
+  height: auto;
+  padding: 12px 15px;
+  width: auto;
+}
+#style-switcher .styles-list {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+#style-switcher .styles-list li {
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 23px;
+  list-style: outside none none;
+  margin: 0 5px 5px 0;
+  text-indent: -9999px;
+  width: 23px;
+}
+#style-switcher .styles-list li:hover{
+    opacity: 0.9;
+}
+
+#style-switcher select{
+    background: #f8f8f8;
+    border: 1px solid #AAA;
+    color: #555;
+    font: 12px 'Droid Sans';
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+}
+
+/*************************
+    CUSTOM THEME STYLES
+**************************/
+
+
+/*  STYLES   */
+#style-switcher .styles-list .blue {
+  background: none repeat scroll 0 0 #446EAD;
+}
+
+#style-switcher .styles-list .violet {
+  background: none repeat scroll 0 0 #8E44AD;
+}
+
+#style-switcher .styles-list .navy {
+  background: none repeat scroll 0 0 #448EAD;
+}
+#style-switcher .styles-list .red{
+    background: #AD4444;
+}
+#style-switcher .styles-list .purple{
+    background: #44a7ad;
+}
+#style-switcher .styles-list .green{
+    background: #bbbc4b;
+}
+#style-switcher .styles-list .dark{
+    background: #333333;
+}
+#style-switcher .styles-list .orange{
+    background: #C14E1B;
+}

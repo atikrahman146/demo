@@ -1,0 +1,37 @@
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+background: none repeat scroll 0 0 #8E44AD;
+border-color: #8E44AD;
+}
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+background: none repeat scroll 0 0 #8E44AD;
+border-color: #8E44AD;
+}
+.cd-active.cd-dropdown > span,.total-comment h4 span, .leave-comment h4 span,.center .post-meta > span:before, .comment-metadata a:before{
+	color:#8E44AD ;
+}
+.gn-submenu li a:hover, .gn-menu-main a:hover, .gn-menu-main a.active:hover, .gn-menu li a.active, .gn-submenu li a.active,.gn-menu-main .gn-icon-menu  ,.photoshop.start ,.illustrator.start ,.html.start ,.css.start,.divider ,.service:hover i,.divider-wrap .divider,.skillbar ,.isotope .hover-icon a:hover,.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus ,.show-desc,.cd-active.cd-dropdown ul li span:hover,.comment-metadata span.author-badge{
+background-color: #8E44AD;
+}
+.navigation .overlay  a:hover span.caret,.navigation .overlay  a.active span.caret{
+	border-bottom-color: #8E44AD;
+	border-top-color: #8E44AD;
+}
+.navigation .overlay nav ul li a:hover .fa-info_circle:before {
+  border-color:#8E44AD;
+}
+.show-desc:hover .hover-state {
+  background: none repeat scroll 0 0 rgba(142, 68, 173, 0.9);
+}
+@media (max-width: 767px) {
+.service i {
+  background: none repeat scroll 0 0 #8E44AD;
+}
+}
